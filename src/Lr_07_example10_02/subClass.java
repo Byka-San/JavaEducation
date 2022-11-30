@@ -30,7 +30,7 @@ package Lr_07_example10_02;
      }
 
      public void setString() {
-         this.str = "нет данных";
+         this.str = "Нет данных";
      }
 
      public void setString(String str) {

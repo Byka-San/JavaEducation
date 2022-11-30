@@ -7,12 +7,12 @@ public class superClassTest {
     }
 
     superClassTest() {
-        this.str1 = "нет параметров";
+        this.str1 = "Нет параметров";
     }
     public String toString() {
         String superClassNameAndFieldValue;
         superClassNameAndFieldValue = "super" + "\n" +
-                " Class name: " + this.getClass().getSimpleName() + "\n" +
+                " Имя класса: " + this.getClass().getSimpleName() + "\n" +
                 " str 1 = " + this.getStr1();
         return superClassNameAndFieldValue;
     }
