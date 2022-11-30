@@ -10,4 +10,3 @@ public class example10_05 {
         subTwoClass.toString();
     }
 }
-

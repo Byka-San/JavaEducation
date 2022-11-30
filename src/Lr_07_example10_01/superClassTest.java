@@ -12,8 +12,7 @@ public class superClassTest {
     public String toString() {
         String superClassNameAndFieldValue;
         superClassNameAndFieldValue = "super" + "\n" +
-                " Имя класса: " + this.getClass().getSimpleName() + "\n" +
-                " str 1 = " + this.getStr1();
+                " Имя класса: " + this.getClass().getSimpleName() + "\n" + " str 1 = " + this.getStr1();
         return superClassNameAndFieldValue;
     }
     public String getStr1() {

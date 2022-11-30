@@ -1,6 +1,5 @@
 package Lr_07_example10_05;
 
-
 public class subOneClass extends superClass {
     final int num;
     public subOneClass(String str, int num) {
