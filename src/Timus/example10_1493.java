@@ -18,7 +18,7 @@ public class example10_1493 {
     int secondMResult = secondM % 10 + secondM / 100 + (secondM / 10 % 10);
         if (Math.abs(firstPResult-secondPResult) == 0 || Math.abs(firstMResult - secondMResult) == 0) {
         System.out.println("Yes");
-    }
+        }
         else System.out.println("No");
-}
+    }
 }
