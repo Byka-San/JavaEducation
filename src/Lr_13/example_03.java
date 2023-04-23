@@ -11,10 +11,12 @@ public class example_03 {
                     if (number %2 == 0){
                         System.out.println(Thread.currentThread().getName() + ": " + number);
                         number++;
-                    } else {
+                    }
+                    else {
                         try {
                             lock.wait();
-                        }catch (InterruptedException e){
+                        }
+                        catch (InterruptedException e){
                             e.printStackTrace();
                         }
                     }
@@ -29,10 +31,12 @@ public class example_03 {
                     if (number %2 !=0) {
                         System.out.println(Thread.currentThread().getName() + ": " + number);
                         number++;
-                    } else {
+                    }
+                    else {
                         try {
                             lock.wait();
-                        } catch (InterruptedException e) {
+                        }
+                        catch (InterruptedException e) {
                             e.printStackTrace();
                         }
                     }
